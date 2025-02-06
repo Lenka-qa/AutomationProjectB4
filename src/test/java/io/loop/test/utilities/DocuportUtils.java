@@ -37,8 +37,7 @@ public class DocuportUtils {
                 username.sendKeys(DocuportConstants.USERNAME_EMPLOYEE);
                 password.sendKeys(DocuportConstants.PASSWORD);
                 break;
-            default:
-                throw new InterruptedException("There is not such a role: " + role);
+            default: throw new InterruptedException("There is not such a role: " + role);
 
         }
 

@@ -27,8 +27,6 @@ public class T00_login_docuport extends TestBase {
         DocuportUtils.login(driver, DocuportConstants.SUPERVISOR);
         DocuportUtils.logOut(driver);
 
-
-
     }
 
 }
